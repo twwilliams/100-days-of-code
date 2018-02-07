@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log - Tommy Williams
 
-[@twwilliams on Twitter](https://twitter.com/twwilliams)
-[@twwilliams on GitHub](https://github.com/twwilliams)
+[@twwilliams on Twitter](https://twitter.com/twwilliams) |
+[@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
 ## Day 0: 06 February 2018
