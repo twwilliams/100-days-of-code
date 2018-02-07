@@ -1,30 +1,41 @@
-# 100 Days Of Code - Log
+# 100 Days Of Code - Log - Tommy Williams
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+[@twwilliams on Twitter](https://twitter.com/twwilliams)
+[@twwilliams on GitHub](https://github.com/twwilliams)
+[LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+## Day 0: 06 February 2018
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+### Today's Progress
 
-**Link to work:** [Calculator App](http://www.example.com)
+- Figured out how the rules of #100DaysOfCode work and got my cloned repo and
+  the log set up.
+- Enabled stricter Code Analysis rules and handled warnings.
+- Switched from string to enum for number type parameter.
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+### Learning Activities
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+- Watched [Vaidehi Joshi](https://dev.to/vaidehijoshi)'s [video on Linked Lists](https://dev.to/vaidehijoshi/linked-lists--basecs-video-series--2le8)
+  in the BaseCS Video Series.
+    - It is indeed very basic but she also teaches the concepts clearly. I wish
+      the video player on dev.to had a way to change the playback speed.
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+### Thoughts
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+- Still trying to work out my own style guide. After spending so much time with
+  Python this summer and the strict line-length requirements of PEP8, it's
+  strange to go back to C# and VS where such constraints were never enforced.
+  It's clear that 80 characters is way too short. I tried 90 for a while but
+  that feels constrained, too. At the same time, 120 feels like I would just be
+  abusing the system, so I'm going to aim at 100 in my C# projects for a while
+  and see how that works. Just glad I'm not working with a team as I reformat
+  files around these experiments.
+- I have always liked enums. I love the extra bit of checking that the editor
+  and compiler can do when using enums instead of strings. It does mean changes
+  are a bit harder.
+- I hate that code analysis rules fight so hard against default parameters. I
+  find them so much more intuitive and elegant than a bunch of method overloads.
+  [CA1026: Default parameters should not be used](https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1026-default-parameters-should-not-be-used)
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+### Link to work
+[ConsoleEx](https://github.com/twwilliams/ConsoleEx)
