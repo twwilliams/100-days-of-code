@@ -39,3 +39,41 @@
 
 ### Link to work
 [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+---
+
+## Day 1: 07 February 2018
+
+### Today's Progress
+
+- 10 min. Experimented with JotForm API with C# from LINQPad.
+- 10 min. Created a VS Code snippet to generate the template for each day's
+  entry in this log. Published as
+  [a gist](https://gist.github.com/twwilliams/5a4b3716d81e4dab81cc690a2f89a54b).
+- 20 min. Created an Airtable database for my wife to use as part of her class.
+- 10 min. Refactored integer tests to allow for testing of verbose flag.
+- 10 min. Add tests to check for behavior of verbose flag.
+
+### Thoughts
+
+- I should probably just submit a pull request to add the month and day name
+  variables but I thought I would at least log it while I investigate how much
+  work it would be to create it and submit it.
+
+### Learning Activities
+
+- Looking into the [JotForm API](https://api.jotform.com/docs/) as an option for
+  handling game submissions for [GFGR 2018](http://gfgr.org). Would have to pay
+  for an account but we could get a non-profit discount. With that API, I could
+  enhance my schedule management tool to at least put stuff into place
+  conditionally automatically and then I could adjust manually if I needed to.
+  Still need a way to check the registration data--but maybe we'll have that if
+  we move away from the WordPress-based add-in we have today.
+
+### Link to work
+
+- [Visual Studio Code template for daily log entry](https://gist.github.com/twwilliams/5a4b3716d81e4dab81cc690a2f89a54b)
+- No link to the Airtable database: it's private
+- [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+---
