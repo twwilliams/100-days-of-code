@@ -77,3 +77,23 @@
 - [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
 
 ---
+
+## Day 2: 08 February 2018
+
+### Today's Progress
+
+- 2 hours+. Set up Bootstrap 4 page, found template, modified it, re-minified
+  stuff with gulp, set up private Git repo, and pushed to site.
+
+### Thoughts
+
+- Still need to create a script to copy changed files from repository to live
+  site, or at least to another local directory where I can then upload over SFTP.
+  I wonder what the scp experience is like on Windows now thanks to WSL.
+
+### Investigations
+
+### Link to work
+
+- https://twwilliams.com
+---
