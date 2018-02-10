@@ -4,41 +4,88 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
-## Day 1: 06 February 2018
+## Day 5: 10 February 2018
 
 ### Today's Progress
 
-- Figured out how the rules of #100DaysOfCode work and got my cloned repo and
-  the log set up.
-- Enabled stricter Code Analysis rules and handled warnings.
-- Switched from string to enum for number type parameter.
-
-### Learning Activities
-
-- Watched [Vaidehi Joshi](https://dev.to/vaidehijoshi)'s [video on Linked Lists](https://dev.to/vaidehijoshi/linked-lists--basecs-video-series--2le8)
-  in the BaseCS Video Series.
-    - It is indeed very basic but she also teaches the concepts clearly. I wish
-      the video player on dev.to had a way to change the playback speed.
+- [10 min] Discovered the source of the bug from last night and refactored the
+  tests back into separate classes. Also hit the VS bug below for sure and
+  verified the workaround for me and tweeted about it.
 
 ### Thoughts
 
-- Still trying to work out my own style guide. After spending so much time with
-  Python this summer and the strict line-length requirements of PEP8, it's
-  strange to go back to C# and VS where such constraints were never enforced.
-  It's clear that 80 characters is way too short. I tried 90 for a while but
-  that feels constrained, too. At the same time, 120 feels like I would just be
-  abusing the system, so I'm going to aim at 100 in my C# projects for a while
-  and see how that works. Just glad I'm not working with a team as I reformat
-  files around these experiments.
-- I have always liked enums. I love the extra bit of checking that the editor
-  and compiler can do when using enums instead of strings. It does mean changes
-  are a bit harder.
-- I hate that code analysis rules fight so hard against default parameters. I
-  find them so much more intuitive and elegant than a bunch of method overloads.
-  [CA1026: Default parameters should not be used](https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1026-default-parameters-should-not-be-used)
+- Turns out the problem from last night was due to XUnit running separate
+  classes in parallel and hitting a problem with my test code not being
+  thread-safe. Fixed by putting both classes into the same XUnit collection:
+  [Running Tests in Parallel](https://xunit.github.io/docs/running-tests-in-parallel.html)
+- I am hitting the
+  [bug in VS 2017 15.5.*](https://developercommunity.visualstudio.com/content/problem/158160/unable-to-fetch-source-information-for-test-method.html)
+  with Dotnet Extensions for Test Explorer
+
+### Investigations
 
 ### Link to work
-[ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+- [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+---
+
+## Day 4: 09 February 2018
+
+### Today's Progress
+
+- [5 min] Set up ssh keys for ssh access to twwilliams.com.
+- [10 min] Refactor some shared test functions for PromptDecimal tests.
+- [40 min] Tried to work around bug in Visual Studio Pro 2017 15.5.6 when I
+  have more than one class in my test project.
+- [10 min] Add a few more tests and refactor TestFx back to my original design
+  since I can't work around this VS bug any other way.
+- [20 min] Maybe there's a problem with the way XUnit is handling the Console
+  class redirecting I'm doing when there are multiple test classes since this
+  problem happens with the XUnit console runner and when I use JetBrains
+  Rider. I wanted to avoid mocking the Console class and thought I could make
+  redirecting Console.StdIn and Console.StdOut work, but I'm stuck with one
+  class and the sense that this is a cargo-cult response since I don't know
+  **why** a single class works but multiple classes don't. Running the tests
+  through the debugger didn't reveal anything.
+
+### Thoughts
+
+### Investigations
+
+- Discovered [Codela](https://www.codela.io/challenges) and completed a few
+  challenges. [LinqPad](https://www.linqpad.net/) is a fantastic tool. And some
+  of the challenges are absurdly easy, at least when working in C#, but they
+  don't have high success rates. 61% for comparing two strings?
+- Looking into the video production gear that
+  [mpj (Mattias Petter Johansson)](https://www.youtube.com/watch?v=HnvKQScJ_ho)
+  uses. Thinking about doing something for absolute beginners, or even people
+  who are interested in software development but have no experience with it.
+
+### Link to work
+
+- [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+---
+
+## Day 3: 08 February 2018
+
+### Today's Progress
+
+- 2 hours+. Set up Bootstrap 4 page, found template, modified it, re-minified
+  stuff with gulp, set up private Git repo, and pushed to site.
+
+### Thoughts
+
+- Still need to create a script to copy changed files from repository to live
+  site, or at least to another local directory where I can then upload over SFTP.
+  I wonder what the scp experience is like on Windows now thanks to WSL.
+
+### Investigations
+
+### Link to work
+
+- https://twwilliams.com
 
 ---
 
@@ -78,59 +125,40 @@
 
 ---
 
-## Day 3: 08 February 2018
+## Day 1: 06 February 2018
 
 ### Today's Progress
 
-- 2 hours+. Set up Bootstrap 4 page, found template, modified it, re-minified
-  stuff with gulp, set up private Git repo, and pushed to site.
+- Figured out how the rules of #100DaysOfCode work and got my cloned repo and
+  the log set up.
+- Enabled stricter Code Analysis rules and handled warnings.
+- Switched from string to enum for number type parameter.
+
+### Learning Activities
+
+- Watched [Vaidehi Joshi](https://dev.to/vaidehijoshi)'s [video on Linked Lists](https://dev.to/vaidehijoshi/linked-lists--basecs-video-series--2le8)
+  in the BaseCS Video Series.
+    - It is indeed very basic but she also teaches the concepts clearly. I wish
+      the video player on dev.to had a way to change the playback speed.
 
 ### Thoughts
 
-- Still need to create a script to copy changed files from repository to live
-  site, or at least to another local directory where I can then upload over SFTP.
-  I wonder what the scp experience is like on Windows now thanks to WSL.
-
-### Investigations
-
-### Link to work
-
-- https://twwilliams.com
-
----
-
-## Day 4: 09 February 2018
-
-### Today's Progress
-
-- [5 min] Set up ssh keys for ssh access to twwilliams.com.
-- [10 min] Refactor some shared test functions for PromptDecimal tests.
-- [40 min] Tried to work around bug in Visual Studio Pro 2017 15.5.6 when I
-  have more than one class in my test project.
-- [10 min] Add a few more tests and refactor TestFx back to my original design
-  since I can't work around this VS bug any other way.
-- [20 min] Maybe there's a problem with the way XUnit is handling the Console
-  class redirecting I'm doing when there are multiple test classes since this
-  problem happens with the XUnit console runner and when I use JetBrains
-  Rider. I wanted to avoid mocking the Console class and thought I could make
-  redirecting Console.StdIn and Console.StdOut work, but I'm stuck with one
-  class and the sense that this is a cargo-cult response since I don't know
-  **why** a single class works but multiple classes don't. Running the tests
-  through the debugger didn't reveal anything.
-
-### Thoughts
-
-### Investigations
-
-- Discovered [Codela](https://www.codela.io/challenges) and completed a few
-  challenges. [LinqPad](https://www.linqpad.net/) is a fantastic tool. And some
-  of the challenges are absurdly easy, at least when working in C#, but they
-  don't have high success rates. 61% for comparing two strings?
-- Looking into the video production gear that
-  [mpj (Mattias Petter Johansson)](https://www.youtube.com/watch?v=HnvKQScJ_ho)
-  uses. Thinking about doing something for absolute beginners, or even people
-  who are interested in software development but have no experience with it.
+- Still trying to work out my own style guide. After spending so much time with
+  Python this summer and the strict line-length requirements of PEP8, it's
+  strange to go back to C# and VS where such constraints were never enforced.
+  It's clear that 80 characters is way too short. I tried 90 for a while but
+  that feels constrained, too. At the same time, 120 feels like I would just be
+  abusing the system, so I'm going to aim at 100 in my C# projects for a while
+  and see how that works. Just glad I'm not working with a team as I reformat
+  files around these experiments.
+- I have always liked enums. I love the extra bit of checking that the editor
+  and compiler can do when using enums instead of strings. It does mean changes
+  are a bit harder.
+- I hate that code analysis rules fight so hard against default parameters. I
+  find them so much more intuitive and elegant than a bunch of method overloads.
+  [CA1026: Default parameters should not be used](https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1026-default-parameters-should-not-be-used)
 
 ### Link to work
+[ConsoleEx](https://github.com/twwilliams/ConsoleEx)
 
 ---
