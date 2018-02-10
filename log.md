@@ -96,4 +96,41 @@
 ### Link to work
 
 - https://twwilliams.com
+
+---
+
+## Day 3: 09 February 2018
+
+### Today's Progress
+
+- [5 min] Set up ssh keys for ssh access to twwilliams.com.
+- [10 min] Refactor some shared test functions for PromptDecimal tests.
+- [40 min] Tried to work around bug in Visual Studio Pro 2017 15.5.6 when I
+  have more than one class in my test project.
+- [10 min] Add a few more tests and refactor TestFx back to my original design
+  since I can't work around this VS bug any other way.
+- [20 min] Maybe there's a problem with the way XUnit is handling the Console
+  class redirecting I'm doing when there are multiple test classes since this
+  problem happens with the XUnit console runner and when I use JetBrains
+  Rider. I wanted to avoid mocking the Console class and thought I could make
+  redirecting Console.StdIn and Console.StdOut work, but I'm stuck with one
+  class and the sense that this is a cargo-cult response since I don't know
+  **why** a single class works but multiple classes don't. Running the tests
+  through the debugger didn't reveal anything.
+
+### Thoughts
+
+### Investigations
+
+- Discovered [Codela](https://www.codela.io/challenges) and completed a few
+  challenges. [LinqPad](https://www.linqpad.net/) is a fantastic tool. And some
+  of the challenges are absurdly easy, at least when working in C#, but they
+  don't have high success rates. 61% for comparing two strings?
+- Looking into the video production gear that
+  [mpj (Mattias Petter Johansson)](https://www.youtube.com/watch?v=HnvKQScJ_ho)
+  uses. Thinking about doing something for absolute beginners, or even people
+  who are interested in software development but have no experience with it.
+
+### Link to work
+
 ---
