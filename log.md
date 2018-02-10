@@ -4,7 +4,7 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
-## Day 0: 06 February 2018
+## Day 1: 06 February 2018
 
 ### Today's Progress
 
@@ -42,7 +42,7 @@
 
 ---
 
-## Day 1: 07 February 2018
+## Day 2: 07 February 2018
 
 ### Today's Progress
 
@@ -78,7 +78,7 @@
 
 ---
 
-## Day 2: 08 February 2018
+## Day 3: 08 February 2018
 
 ### Today's Progress
 
@@ -99,7 +99,7 @@
 
 ---
 
-## Day 3: 09 February 2018
+## Day 4: 09 February 2018
 
 ### Today's Progress
 
