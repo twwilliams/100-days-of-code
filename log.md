@@ -8,9 +8,18 @@
 
 ### Today's Progress
 
-- [10 min] Discovered the source of the bug from last night and refactored the
+- [15 min] Discovered the source of the bug from last night and refactored the
   tests back into separate classes. Also hit the VS bug below for sure and
   verified the workaround for me and tweeted about it.
+- [60 min] Played around with ASP.NET Web Forms just for the nostalgia of it. I
+  had forgotten how much I remembered about it. Nothing uploaded since I was
+  just playing with all the toolbox items and seeing the code that was rendered
+  and changing it up both in code and with VS properties. I had honestly
+  forgotten that this is the way we used to build Web sites with ASP.NET.
+- [20 min] Complete a simple calculator challenge in the DevU C# Fundamentals
+  with ASP.NET course. Doing stuff with the WebForms designer is so incredibly
+  tedious, and yet it is also discoverable. Had to try hard not to use language
+  features I know how to use that haven't already been discussed in the course.
 
 ### Thoughts
 
@@ -18,11 +27,20 @@
   classes in parallel and hitting a problem with my test code not being
   thread-safe. Fixed by putting both classes into the same XUnit collection:
   [Running Tests in Parallel](https://xunit.github.io/docs/running-tests-in-parallel.html)
+- Found [an answer on StackOverflow](https://stackoverflow.com/a/29325370/240398)
+  that roughly describes the process of making these calls to `Console.SetIn()`
+  and `Console.SetOut()` thread safe. Might be a nice exercise to implement.
+- Or, I could change my approach and just mock the Console class. It would give
+  me a chance to choose and learn a mocking framework--there are just so many
+  from which to choose.
 - I am hitting the
   [bug in VS 2017 15.5.*](https://developercommunity.visualstudio.com/content/problem/158160/unable-to-fetch-source-information-for-test-method.html)
   with Dotnet Extensions for Test Explorer
 
 ### Investigations
+
+- [How to mock a `System.Console` dependency](https://stackoverflow.com/a/13406010/240398)
+- [C# Fundamentals Via ASP.NET Web Applications](https://devu.com/courses/cs-fundamentals-via-asp-net-web-applications/lessons/cs-asp-003-building-your-first-web-app)
 
 ### Link to work
 
