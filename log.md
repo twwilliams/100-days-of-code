@@ -4,6 +4,33 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 6: 11 February 2018
+
+### Today's Progress
+
+- *[15 min]* Radio Button Challenge from DevU C# Fundamentals course. Most of
+  that spent watching the video to get the requirements of the challenge.
+- *[45 min]* Papa Bob's Pizza Challenge from DevU C# Fundamentals course. Took a
+  while to get all the buttons and special formatting set up. Code is messy
+  because I'm trying not to use stuff we haven't covered in the course yet. But
+  I couldn't help myself and I created a `[Flags] Enum` for the toppings and
+  used `Enum.HasFlag()` to handle the special deal.
+
+### Thoughts
+
+### Learned or Discovered
+
+- Figured out that I could keep IIS Express up between builds by disabling
+  "Edit and Continue" in the project properties. That way, I can use Ctrl+F5 to
+  start **without** debugging. That makes it much faster when iterating on a
+  Web Forms project.
+
+### Link to work
+
+- [Papa Bobs Pizza Challenge](https://github.com/twwilliams/Challenges.PapaBobsPizza)
+
+---
+
 ## Day 5: 10 February 2018
 
 ### Today's Progress
