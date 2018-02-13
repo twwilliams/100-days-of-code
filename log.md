@@ -4,6 +4,41 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 7: 12 February 2018
+
+### Today's Progress
+
+- *[40 min]* Implemented a demonstration of using a DateTime2 column in SQL
+  Server and querying it with SqlClient using the naive approach, which ends up
+  truncating data, then created a `SqlParameter` with SqlDbType of
+  `SqlDbType.DateTime2`. Had to be sure to use a date earlier than 1773 to show
+  the effect. See
+  https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/date-and-time-data#datetime2-example
+- *[20 min]* Added remaining tests from PromptIntegerTests to
+  PromptDecimalTests (and renamed the class and file from PromptDigitalTests--
+  that was a typo from when I was trying to solve the parallel classes problem).
+
+### Thoughts
+
+- Wondering how important it is to know how to manually work with data structures
+  linked lists and binary trees when environments like .NET already have great
+  implementations. Or where there are packages with well-tested implementations
+  in the rare cases that there isn't one in the box. Case in point:
+  [SortedDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netframework-4.7.1)
+  instead of building your own binary tree from scratch. You still get O(log N)
+  performance on searches and inserts and you know it's been tested a **lot**
+  more than code you write on your own.
+- I think knowing design patterns--and, particularly, when and how to use them--
+  is a lot more valuable.
+
+### Learned or Discovered
+
+### Link to work
+
+- [ConsoleEx](https://github.com/twwilliams/ConsoleEx)
+
+---
+
 ## Day 6: 11 February 2018
 
 ### Today's Progress
