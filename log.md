@@ -4,6 +4,37 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 8: 13 February 2018
+
+### Today's Progress
+
+- *[30 min]* Created a "Hello world" Azure Function in C# and changed it to
+  return the response as JSON instead of XML.
+- *[10 min]* Looked into REST services to get holidays for a little app to tell me
+  how many days until the next holidays in the year. Unfortunately, they're all
+  pay services (for future data) and the rates are pretty large, so I'm just
+  going to build it with a local JSON file until I find a better alternative.
+- *[10 min]* Created JSON file with holidays for 2018 in Montana.
+- *[15 min]* Wrote basic code to read file and then fought with VS and .NET Core
+  2.0 to produce a stupid damned console EXE and there doesn't appear to be any
+  way to get the Publish profile to do that. I only get a choice of a Portable
+  application. .NET Core 2.0 continues to be nothing but a pain in the ass every
+  time I try to use it. Just a huge waste time.
+- *[5 min]* Finally figured out I need to edit the .csproj file directly and add
+  a `<RuntimeIdentifier>win10-x64</RuntimeIdentifier>` tag, then create a Publish
+  profile that uses that identifier. But it generates a directory with 216 files
+  that is nearly 63MB. This continues to be just crazy. Or, if I'm willing to
+  call my app with `dotnet path\to\my.dll` to run it, I only need 13 files and
+  1MB on disk. Ugh.
+
+### Thoughts
+
+### Learned or Discovered
+
+### Link to work
+
+---
+
 ## Day 7: 12 February 2018
 
 ### Today's Progress
