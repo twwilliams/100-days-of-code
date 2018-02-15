@@ -4,6 +4,23 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 9: 14 February 2018
+
+### Today's Progress
+
+- *[20 min]* Bit more project housekeeping and basic JSON processing in Holidays
+- *[50 min]* More challenges in the ASP.NET course
+
+### Thoughts
+
+### Learned or Discovered
+
+### Link to work
+
+- [Holidays](https://github.com/twwilliams/Holidays)
+
+---
+
 ## Day 8: 13 February 2018
 
 ### Today's Progress
