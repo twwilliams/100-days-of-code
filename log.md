@@ -4,6 +4,38 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 10: 15 February 2018
+
+### Today's Progress
+
+- *[10 min]* Created simple example of basic uses of ref and out parameters
+  based on Twitter conversation.
+- *[5 min]* Updated to show that while C# passes by value by default, the value
+  that is passed with a reference type (like a custom class) is the reference,
+  not a deep copy of the object.
+- *[60 min]* Went through a bunch of edge cases with built-in C# types with some
+  programs written in LINQPad. Not real projects but cemented (for a while,
+  anyway) a much more solid understanding of some aspects of C# that I have
+  always just glossed over and taken for granted. It's kind of tedious at times
+  but worth what I have learned.
+- *[5 min]* Updated gist **again** to show what happens with ref params and
+  reference types.
+
+### Thoughts
+
+- Biggest takeaway about ref vs. out params, to me, is the idea that with a
+  `ref` param, you can pass information out of **and** into a function via the
+  parameter. With an `out` param, you can only get information out of the
+  function. Hence the name.
+
+### Learned or Discovered
+
+### Link to work
+
+- [Condensed example of basics of ref and out parameters](https://gist.github.com/twwilliams/ebfc12fdde6385eb496e29a584a6dc28)
+
+---
+
 ## Day 9: 14 February 2018
 
 ### Today's Progress
