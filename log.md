@@ -4,6 +4,22 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 11: 16 February 2018
+
+### Today's Progress
+
+- *[60 min+]* Experimented with a few different forms of pure Dependency
+  Injection (no IoC container) and tried to simplify down to examples that could
+  be easily understood. Still need to do more work on this.
+
+### Thoughts
+
+### Learned or Discovered
+
+### Link to work
+
+---
+
 ## Day 10: 15 February 2018
 
 ### Today's Progress
