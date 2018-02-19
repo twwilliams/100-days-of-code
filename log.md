@@ -4,6 +4,39 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 12: 18 February 2018
+
+### Today's Progress
+
+- *[30 min]* Investigated options for REST services for currency conversions,
+  command-line parsing libraries (they're all so complicated in C# compared to
+  Python and JavaScript), and trying to avoid writing my own filesystem cache
+  for the values (but, again, the available options are all incredibly heavy-
+  weight.)
+- *[40 min]* Start a basic persistance class to store data from the Web service
+  in a file and only update it once a day.
+
+### Thoughts
+
+- One of the big problems that .NET Core is going to face is how complicated
+  the available packages are compared to what Ruby, Python, Node.js, and other
+  devs on Unix-based systems are used to. I mean, sure, when your needs are
+  complicated, it's good to have a tool that can operate there, but there's a
+  **huge** complexity gap between rolling everything yourself out of the BCL to
+  what's available from the community.
+- There's also a giant documentation gap. I've been looking at command-line
+  argument parsing libraries for .NET today and have been appalled at how
+  weakly they are documented compared to options for Python. Even where I can
+  find some sort of getting started examples, they're poorly done and not nearly
+  complete enough. Once I select a library to use regularly myself, I'm going to
+  submit some pull requests to make the docs better.
+
+### Learned or Discovered
+
+### Link to work
+
+---
+
 ## Day 11: 16 February 2018
 
 ### Today's Progress
