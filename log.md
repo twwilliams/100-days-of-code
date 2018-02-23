@@ -4,6 +4,21 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 13: 22 February 2018
+
+### Today's Progress
+
+- *[60+ min]* Tried a bunch of different combos of Bootstrap configurations and
+  components. Didn't make a useful site but built a bunch of scratch examples.
+
+### Thoughts
+
+### Learned or Discovered
+
+### Link to work
+
+---
+
 ## Day 12: 18 February 2018
 
 ### Today's Progress
