@@ -4,6 +4,22 @@
 [@twwilliams on GitHub](https://github.com/twwilliams) |
 [LinkedIn](https://www.linkedin.com/in/twwilliams/)
 
+## Day 14: 23 February 2018
+
+### Today's Progress
+
+- *[40 min]* Studied [Tailwind.css](https://tailwindcss.com/) and played with
+  some examples.
+- *[20 min]* Debugged logic error in basic persistence tests and renamed files.
+
+### Thoughts
+
+### Learned or Discovered
+
+### Link to work
+
+---
+
 ## Day 13: 22 February 2018
 
 ### Today's Progress
